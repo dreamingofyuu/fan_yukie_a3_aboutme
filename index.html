@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+  /* General styles for all pages */
+body {
+  font-family: Garamond, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #4a4e69;
+  color: white;
+}
+
+.logo {
+  height: 50px;
+}
+
+.nav-bar {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+}
+
+.nav-bar li {
+  margin: 0 15px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Home Page styles */
+.home {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.home h1 {
+  font-size: 3em;
+}
+
+.explore-btn {
+  background-color: #22223b;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border: none;
+  cursor: pointer;
+}
+
+.description {
+  margin: 20px auto;
+  width: 60%;
+  font-size: 1.2em;
+}
+
+/* Games Page styles */
+.games {
+  padding: 20px;
+}
+
+.games h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.game img {
+  width: 100px;
+  height: auto;
+}
+
+.game p {
+  margin: 10px;
+}
+
+/* About Me Page styles */
+.about {
+  text-align: center;
+  padding: 20px;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+  </style>
+<!-- Content -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gamiverse</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Logo that links back to the homepage -->
+  <header>
+    <a href="https://dreamingofyuu.github.io/fan_yukie_a3/">
+      <img src="logo.png" alt="Gamiverse Logo" class="logo">
+    </a>
+    <!-- Navigation bar -->
+    <nav>
+      <ul class="nav-bar">
+        <li><a href="https://dreamingofyuu.github.io/fan_yukie_a3/">Home</a></li>
+        <li><a href="https://dreamingofyuu.github.io/fan_yukie_a3_gamespage/">Games</a></li>
+        <li><a href="about.html">About Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Page -->
+  <main class="home">
+    <h1>Welcome to my Gamingverse</h1>
+    <!-- Button links to the Games section on the same page -->
+    <button class="explore-btn" onclick="location.href='#games'">Explore Games</button>
+    <p class="description">
+      Here are my top games of 2024, kind of like a Spotify Wrapped but for all the games I've played this year! I've added my personal ratings, reasons why I gave the game that rating, experiences, and aspects that I liked and didn't like.
+    </p>
+  </main>
+
+  <!-- About Me Page -->
+  <main class="about">
+    <h1>About Me</h1>
+    <div class="profile">
+      <img src="myphoto.jpg" alt="Yukie Fan">
+      <div>
+        <h2>Yukie Fan</h2>
+        <p>Hi! I'm Yukie, a gamer who loves exploring new worlds and challenging myself. This Gamiverse is my way of sharing my favorite games and experiences with you! I've been playing games ever since I could remember. Starting with the Wii consoles to the latest PC games! My first ever console game was Mario Kart on the Wii which I mainly loved to play since it usually meant I was playing with my cousins. League of Legends was my first official game I played on PC because my friend introduced me and taught me how to play. At first, I found it challenging, but soon got to really liking PC games!</p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
